@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy</title>
+  <meta name="description" content="How Email Assistant handles Gmail data: it stays on the user's own Mac and is never shared.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p><a href="index.html">← Email Assistant</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective November 7, 2026</p>
+
+    <p class="lead">
+      Email Assistant is a private tool that runs on one household's Mac. Gmail data
+      stays on that Mac. It is never sold, shared, or sent to any server we run.
+      We don't run any servers.
+    </p>
+
+    <h2>What Email Assistant accesses</h2>
+    <p>With the account owner's permission (Google sign-in), Email Assistant uses the Gmail API to read:</p>
+    <ul>
+      <li><strong>Message details, not message bodies:</strong> sender, subject, date,
+        mailing-list and unsubscribe headers, and Gmail's labels and categories
+        (for example "Promotions").</li>
+      <li><strong>Who the account has sent email to</strong>, so people the user writes
+        to are never suggested as junk.</li>
+      <li><strong>Gmail's short preview text of delivery-failure notices</strong>, only to
+        recognize when an unsubscribe email it sent could not be delivered.</li>
+    </ul>
+
+    <h2>What it changes, and only with approval</h2>
+    <p>Nothing is changed until the user reviews a list of senders and confirms. For the senders they approve, Email Assistant:</p>
+    <ul>
+      <li>moves those senders' marketing email to Gmail's Trash. Trash keeps it for
+        30 days, and it is never permanently deleted by this tool. Order, shipping and
+        account emails are kept;</li>
+      <li>creates Gmail filters so future marketing email from those senders goes to Trash;</li>
+      <li>unsubscribes using the sender's own unsubscribe link. Where the sender only accepts
+        an unsubscribe email, Email Assistant writes it and sends it only after the user
+        approves that specific email;</li>
+      <li>moves delivery-failure notices about its own unsubscribe emails to Trash.</li>
+    </ul>
+    <p>Email Assistant never sends any other email.</p>
+
+    <h2>Where data is stored</h2>
+    <ul>
+      <li>Everything is stored only on the user's own Mac: Google sign-in tokens, the list
+        of suggested senders, and progress records. It is kept in a private folder
+        readable only by that Mac user.</li>
+      <li>There are no accounts, servers, databases, analytics, tracking, or advertising.</li>
+      <li>The only network connections are to Google's Gmail API and, when the user
+        approves an unsubscribe, to that sender's unsubscribe link.</li>
+    </ul>
+
+    <h2>Sharing</h2>
+    <p>Gmail data is not sold, shared with, or transferred to anyone. It is not used for
+      advertising, and it is not used to develop, improve, or train artificial
+      intelligence or machine-learning models.</p>
+
+    <h2>Google API Services User Data Policy</h2>
+    <p>Email Assistant's use and transfer of information received from Google APIs adheres to the
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+      Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Removing access and data</h2>
+    <ul>
+      <li>Remove Email Assistant's access at any time at
+        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+      <li>Uninstalling Email Assistant and deleting its folder on the Mac
+        (<code>~/.email-assistant</code>) removes all stored data.</li>
+    </ul>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+    <h2>Questions</h2>
+    <p>Email Assistant is set up and maintained privately for one household. Questions about
+      this policy go to the person who installed it on your Mac.</p>
+  </main>
+</body>
+</html>

@@ -11,7 +11,7 @@
   <main>
     <p><a href="index.html">← Email Assistant</a></p>
     <h1>Privacy Policy</h1>
-    <p class="muted">Effective November 7, 2026</p>
+    <p class="muted">Effective November 21, 2026</p>
 
     <p class="lead">
       Email Assistant is a private tool that runs on one household's Mac. Gmail data
@@ -37,7 +37,11 @@
       <li>moves those senders' marketing email to Gmail's Trash. Trash keeps it for
         30 days, and it is never permanently deleted by this tool. Order, shipping and
         account emails are kept;</li>
-      <li>creates Gmail filters so future marketing email from those senders goes to Trash;</li>
+      <li>creates Gmail filters so future marketing email from those senders skips the inbox and goes
+        to a Gmail label ("Filtered by Email Assistant"). Once a month it checks that label for anything
+        that might be wanted (for example an order notice, a starred email, or a sender the user has
+        written to) and asks the user about it. Filtered email older than 60 days that wasn't flagged
+        moves to Trash;</li>
       <li>unsubscribes using the sender's own unsubscribe link. Where the sender only accepts
         an unsubscribe email, Email Assistant writes it and sends it only after the user
         approves that specific email;</li>

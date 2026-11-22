@@ -45,9 +45,11 @@
       <li>unsubscribes using the sender's own unsubscribe link. Where the sender only accepts
         an unsubscribe email, Email Assistant writes it and sends it only after the user
         approves that specific email;</li>
-      <li>once a month, after an account has been cleaned up, moves order confirmations, receipts,
-        refunds and returns older than 30 days out of the inbox into a Gmail label ("Receipts"), and
-        moves shipping and delivery tracking notices older than 30 days to Trash;</li>
+      <li>once a week, after an account has been cleaned up, files inbox email older than 7 days so the
+        inbox only holds recent mail: order confirmations and receipts, account notices, and mail from
+        people each go to their own Gmail label ("Receipts", "Accounts", "Personal"); shipping and
+        delivery tracking notices go to Trash; everything else is archived (out of the inbox, still in
+        Gmail). Starred email is never moved;</li>
       <li>moves delivery-failure notices about its own unsubscribe emails to Trash.</li>
     </ul>
     <p>Email Assistant never sends any other email.</p>
